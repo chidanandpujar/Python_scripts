@@ -7,3 +7,4 @@ class Myclass:
 print(Myclass.a)
 print(Myclass.function)
 print(Myclass.__doc__)
+Mycl1 = Myclass()
