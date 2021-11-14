@@ -6,4 +6,4 @@ except ValueError:
 except ZeroDivisionError:
     print("Device by Zero attempted")
 else:
-    print(n)
+    print("Result=",n)
