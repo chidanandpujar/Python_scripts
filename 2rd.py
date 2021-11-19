@@ -1,3 +1,4 @@
 fd = open('f',"r")
-buf = fd.read(5)
-print(buf)
+buffer = fd.read(2)
+print("first 2 chars in f:",buffer)
+fd.close()
