@@ -4,6 +4,7 @@ from threading import  Lock
 mylock = Lock()
 def threadfn(data):
     mylock.acquire()
+    print("Inside lock",data)
     if data == 3:
         time.sleep(2)
     print("Just coming out of lock",data)
