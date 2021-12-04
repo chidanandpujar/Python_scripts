@@ -12,3 +12,4 @@ print("Number {0:5} String {1:20}!!".format(10,"Hi")) #default Numbers are right
 print("Number {0:<5} String {1:<20}!!".format(10,"Hi")) #left justified
 print("Number {0:>5} String {1:>20}!!".format(10,"Hi")) #Right justified
 print("Number {0:^5} String {1:^20}!!".format(10,"Hi")) #Centre justified
+print("Number {0:*^10} String {1:*^10}!!".format(10,"Hi")) #Centre justified
