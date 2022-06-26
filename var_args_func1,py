@@ -1,0 +1,6 @@
+def fn( *args):
+    for n in args:
+        print(n)
+
+fn(1)
+fn(1,2,3)
